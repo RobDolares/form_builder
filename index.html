@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <div class="header">
+                <span class="title">Sign Up For My Web App</span>
+            </div>
+            <div class="fields" id="fields">
+                <!--
+                    <input type="text" id="user-first-name" placeholder="First Name">
+                -->
+
+                <!-- Form Data Appended Here -->
+
+
+
+            </div>
+            <div class="footer">
+                <button>Submit Form</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!--
+let formField = document.getElementById("fields");
+
+for (var i = 0; i < formData.length; i++) {
+
+  if (formData[i].type !== "select" && formData[i].type !== "textarea") {
+
+    let input = document.createElement('input');
+
+    formField.appendChild(input);
+
+    function setAttributes(el, attrs) {
+      for (var key in attrs) {
+        el.setAttribute(key, attrs[key]);
+      }
+    }
+
+    setAttributes(input, {
+      "type": formData[i].type,
+      "id": formData[i].id,
+      "placeholder": formData[i].label,
+      "icon": formData[i].icon,
+
+    });
+  } else if (formData[i].type === "select") {
+
+    let select = document.createElement('select');
+
+    formField.appendChild(select);
+
+  } else {
+
+    let textarea = document.createElement('textarea');
+
+    formField.appendChild(textarea);
+  }; -->
